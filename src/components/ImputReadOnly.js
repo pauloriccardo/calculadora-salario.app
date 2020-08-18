@@ -8,7 +8,7 @@ export default class InputReadOnly extends Component {
         const formattedValue = `${formatMoney(value)} ${formattedPercentage}`;
 
         return (
-            <div className="input-field col s6 m4 l3">
+            <div className="input-field col s12 m6 l3">
                 <input
                     readOnly
                     id="inputReadOnly"

@@ -12,7 +12,7 @@ export default class App extends Component {
     constructor() {
         super();
 
-        this.state = { fullSalary: 1000 };
+        this.state = { fullSalary: '' };
     }
 
     handleFullSalaryChange = (newValue) => {

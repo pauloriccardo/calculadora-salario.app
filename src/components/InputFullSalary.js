@@ -15,7 +15,7 @@ export default class InputFullSalary extends Component {
                     id="inputFullSalary"
                     value={currentValue}
                     onChange={this.handleInputChange}
-                    min="1000"
+                    min="1045"
                     step="100"
                 />
                 <label className="active" htmlFor="inputFullSalary">
